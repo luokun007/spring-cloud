@@ -1,0 +1,7 @@
+server:
+  port: 9009
+
+spring:
+  cloud:
+    config:
+        enabled: false

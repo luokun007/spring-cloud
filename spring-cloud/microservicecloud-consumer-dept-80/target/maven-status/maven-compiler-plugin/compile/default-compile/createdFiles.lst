@@ -1,0 +1,5 @@
+com\test\springcloud\cfgbeans\ConfigBean.class
+com\test\myrule\MySelfRule.class
+com\test\myrule\MyRule_lk.class
+com\test\springcloud\DeptConsumer80_APP.class
+com\test\springcloud\controller\DeptController_Consumer.class

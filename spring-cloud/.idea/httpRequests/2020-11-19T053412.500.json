@@ -1,0 +1,8 @@
+{
+  "timestamp": 1605778452202,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.mybatis.spring.MyBatisSystemException",
+  "message": "org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: Could not process result for mapping: ResultMapping{property='null', column='deptName', javaType=class java.lang.String, jdbcType=VARCHAR, nestedResultMapId='null', nestedQueryId='null', notNullColumns=[], columnPrefix='null', flags=[CONSTRUCTOR], composites=[], resultSet='null', foreignColumn='null', lazy=false}",
+  "path": "/dept/findAll"
+}

@@ -1,0 +1,16 @@
+GET http://localhost:8001/dept/findById/{deptNo}
+
+###
+
+GET http://localhost:8001/dept/findAll
+
+<> 2020-11-19T053526.200.json
+
+###
+
+GET http://localhost:8001/dept/findAll
+
+<> 2020-11-19T053412.500.json
+
+###
+

@@ -1,0 +1,28 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com  # 在eureka中显示对应的服务名字
+    prefer-ip-address: true     #在eureka中下边的访问路径可以显示IP地址
+
+info: # 在eureka中可以点击info链接，显示有值。链接后的内容就是在这里配置的
+  app.name: spring-cloud
+  company.name: www.springcloud.com
+  build.artifactId: microservicecloud-zuul-gateway
+  build.version: 1.0-SNAPSHOT
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-dept
+    mydept.path: /mydept/**
+  ignored-services: springcloud-dept #"*" 忽视所有微服务名称path
+  prefix: /luok #前缀

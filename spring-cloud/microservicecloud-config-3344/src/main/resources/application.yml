@@ -1,0 +1,18 @@
+server:
+  port: 3344
+
+
+spring:
+  application:
+    name: microservicecloud-config #配置中心名字
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luokun007/microservicecloud-config.git
+#          uri: git@github.com:luokun007/microservicecloud-config.git
+          #GitHub上面的git仓库名字
+          #uri: git@github.com:littleCatBobi/springcloud-config.git
+#          force-pull: true
+#          username: 277266796@qq.com
+#          password: a52083555200

@@ -1,0 +1,5 @@
+com\test\springcloud\controller\DeptController.class
+com\test\springcloud\service\DeptService.class
+com\test\springcloud\dao\DeptDao.class
+com\test\springcloud\service\impl\DeptServiceImpl.class
+com\test\springcloud\DeptProvider8001_Hystrix_App.class
